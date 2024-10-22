@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+
+
+  .header{
+    display: none;
+  }
+
+ .navbar-custom
+{
+    visibility: visible;
+}
+  .navbar-custom .nav-link {
+    color: #d3ad7f;
+    /* Cor do texto personalizada */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-custom .navbar-toggler-icon {
+    color: #f1f512;
+  }
+
+}
